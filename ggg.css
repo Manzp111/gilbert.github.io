@@ -1,0 +1,20 @@
+
+
+.divs 
+{
+  display: none;
+}
+
+a:hover + .divs 
+{
+    display: block;
+    position: relative;
+   
+}
+.manzi{
+  display: none;
+     } 
+a#hh:hover + .manzi{
+  display: block;
+  position: relative;
+}

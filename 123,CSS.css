@@ -1,0 +1,365 @@
+body{
+  
+    background-image:radial-gradient(white,white,skyblue);
+    max-width:100%;
+    min-width: 50%;
+  
+}
+
+p#gi{
+    float: left;
+   display: inline;
+   /* position: fixed; */
+   top:0;
+   right: 0;
+    width: 90%;
+    margin-left: 8.5%;
+    height: 10%;
+    border:10px solid midnightblue;
+    text-align: center;
+    background-color:midnightblue;
+    margin-top: 0%;
+    position:fixed;
+    z-index: 1;
+}
+p#gil{
+    font-family: ;
+    font-size: 200%;
+    width: 74.6%;
+    height: 10%;
+    border: solid midnightblue;
+    margin: 0 11% 0 8%;
+    text-align:center;
+    /* margin-left:%; */
+    padding: 4PX;
+    /* background-color: sandybrown; */
+    font-family: apple chancery;
+    position:relative;
+    display: inline;
+    float: left;
+    text-shadow:.2em .2em .1em  blue;
+    clear: both;
+    border-left: hidden;
+    border-right: hidden;
+    margin-right: 15%;
+    border-bottom:10px solid black;
+    color: red;
+    font-weight: 1000;
+    border-top: 5px solid gold;
+    
+   
+    
+}
+div#main{ 
+    margin:2% 1% 0% 8%;
+    width:20%; 
+    height: 100%;
+    border: 4px none; 
+    padding:1%;
+    text-align:justify;  
+    position:relative;
+    display: inline;
+    clear: both;
+    float: left;
+  }
+   
+div#extras { 
+  width:25%;
+  height: 100%;
+  position: relative;
+  display: inline;
+  float: left;
+  text-align: justify;
+  margin:2% 1% 0% 2%;
+  }
+div#footer {
+  list-style: decimal;
+  width:25%;
+  height: 100%;
+  position: relative;
+  display: inline;
+  float: left;
+  margin:0% 1% 0% 2%;
+  border-left: 1px solid teal;
+  border-left: double;
+  }
+  .t{
+    color: aqua;
+  }
+  .w {
+   border: 4px double midnightblue;
+   border-left: hidden;
+   border-right: hidden;
+   padding: 5px;
+   text-transform: capitalize;
+  
+   
+  }
+  .n{
+    border-bottom: hidden;
+  }
+ .gilb{
+        
+    width:20%;
+    height: 100%;
+    margin:2% 2% 0 8%;
+    position: relative;
+    display: inline;
+    clear: both;
+    float: left;
+    padding: 2%;
+    }
+img#gin{
+        float: right;
+        border-radius: 50%;
+        transform: skewY(10deg,20deg);    
+        margin: 1% 2% 1%  2%;
+        position: relative;
+
+    }
+    img#gim{
+        float: left;
+        margin:1%;
+    }
+    figure{
+
+        float: left;
+    }
+    figcaption{
+        font-size:150%;
+          }
+
+a#re{
+        font-size: 70%;
+        text-align: center;
+        display:inline-flex;
+        text-decoration:none; 
+        padding:2% 2% 1% 2%;
+        width:80%;
+        height: 5%;
+        margin: 2% 2% 2% 2%;
+        border-radius: 1.5em;
+        color: #fff; 
+        /* background-color: mediumblue;  */
+        transition-property: background-color; 
+        }
+a#re:hover { 
+            color: chartreuse;
+        }
+ a#nad{
+                font-size: large;
+                display: inline-block; 
+        text-decoration:none; 
+        background-color:gray;
+        padding: 1% 2%;
+        width: 10%;
+        border-radius: 1.5em;
+        /* transition-property: background-color,letter-spacing,font-size; 
+        transition-duration: 0.3s,3s; */
+        font-size: smaller;
+        color: orange;
+
+            }
+ a#nad:hover{
+                background-color:yellow;
+                color: white;
+                /* letter-spacing: 10%; */
+                /* font-size: large; */
+            }
+ div#gilbe{
+  width: 25%;
+  height: 100%;
+  position: relative;
+  display: inline;
+  float: left;
+  margin: 2% 3% 1% 0;
+text-align: justify;
+padding: 2%;
+
+}
+                  
+footer{
+    width:100%;
+    height: 100%;
+    padding: 2px;
+    border: 3px none;
+    position: relative;
+    float: left;
+    /* color: bisque; */
+}  
+span#fi{
+    font-size: 90%;
+    border: 3px solid firebrick;
+    width: 50%;
+    height: 20%;
+    padding: 1% 1% 1% 1%;
+    float:left;
+    background-color: firebrick;
+    color: yellow;
+    position: relative;  }
+    span#fix{
+      text-shadow: .2em .2em .1em  blue;
+      background-color:;
+    }
+ button{
+    border: none;
+    font-size: 150%;
+    text-align: right;
+    color: blue;
+   
+
+    
+ }
+ .ad{
+    
+    text-decoration:navajowhite;
+    color:white;
+    font-size: 60%;
+    border:solid white;
+    border-bottom: hidden;
+    border-top: hidden;
+    border-right: hidden;
+    width: 100%;
+    height:100%;
+    padding: 1%;
+    
+    /* border-right: hidden;
+    border-left: hidden; */
+    
+   
+ }
+ 
+ .ad:hover{
+  background-color: #fff;
+  color: blue;
+  
+ }
+ p#d{
+  margin: 5% 0 0 9%;
+    border:solid darkblue;
+    background-color: darkblue;
+    background-color:;
+    text-align: center;
+    font-size:200%;
+    border-right: hidden;
+    border-left: hidden;
+    width: 63.3%;
+    margin-left:20%;
+    position: ;
+    display: inline;
+    float: left;
+   
+ }
+
+ 
+.sidebar {
+  height: 29.5%;
+  width: 8.5%;
+  position:fixed;
+  z-index: 10;
+  top:0%;
+  left:0;
+  /* background-color: #111; */
+  overflow-x: hidden;
+  padding-top:0px;
+  box-shadow: ;
+  background-color: #fff;
+}
+.sidebar:first-letter{
+  font-size: 50px;
+  font-family: serif;
+  color: cadetblue;
+  rotate: 50deg;
+  
+}
+
+.dropdown-content {
+    display: none;
+    /
+  }
+  
+  .dropdown-content a {
+   
+    text-decoration: none;
+    display: block;
+  }
+  
+  .show {display: block;}
+  div#title{
+    position: relative;
+    display: inline;
+    clear: both;
+    float: left;
+    width: 80%;
+    height: 100%;
+    margin-left: 5%;
+    /* background-color: aqua; */
+    text-align: right;
+   
+  }
+  p#ma{
+
+    width:25%;
+    height: 100%;
+    margin-left: 11%;
+    position: relative;
+    display: inline;
+    float: left;
+    /* color: #fff; */
+  }
+  a#n{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+  }
+  p#m{
+    width: 25%;
+    height: 100%;
+    position: relative;
+    float: left;
+    display: inline;
+  }
+ div#p#mi{
+    width:25%;
+    height: 100%;
+    position: relative;
+    display: inline;
+    
+  }
+  .home{
+            
+    align-items: center;
+    justify-content:center;
+    background-color:;
+    margin: 4% 0 0 1%;
+    display: inline;
+    position: fixed;
+    float: left;
+    height: 100%;
+    background-color:midnightblue;
+    /* z-index: 1; */
+
+}
+
+.home .home-text{
+    text-align: right;
+    z-index: 2;
+    po
+   
+   
+}
+.home .home-text p span{
+   /* color: orangered; */
+    display: none;
+}
+.home .home-text p span.text-in{
+    display: block;
+    animation: textIn .3s ease;
+
+}
+div#wordContainer{
+  position: relative;
+  display: inline;
+  float: left;
+}
+  
