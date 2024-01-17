@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <style>
+body{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blueviolet;
+min-height: 100vh;
+}
+div#container{
+  background-color:aliceblue;
+  
+}
+div#header{
+  padding: 10px 50px;
+}
+.form{
+  padding: 20px 40px;
+}
+.manz{
+  margin-bottom:10px;
+  /* padding-bottom: 20px; */
+  position: relative;
+ 
+}
+.manz label{
+  display: inline-block;
+  margin-bottom: 5px;}
+  .manz input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+  }
+ .manz.success input{
+    border-color: green;
+  }
+  .manz.error input{
+    border-color: green;
+  }
+  
+  .manz i{
+    position:absolute;
+    top: 40px;
+    right: 10px;
+    visibility: hidden;
+  }
+  .manz.success i.fa-check-circle{
+    color: green; 
+    visibility: visible;
+    
+  }
+  .manz.success small{
+    color:orangered; 
+    visibility:hidden;}
+  .manz.error small{
+    color:orangered; 
+   visibility: visible;
+  }
+  .manz.error i.fa-exclamation-circle{
+    color: red; 
+    visibility: visible;
+  .manz small{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    visibility:hidden;
+  }
+  </style>
+
+   
+</head>
+<body>
+  <div id="container">
+<div id="header"><h1>Room Booking</h1></div>
+<form action="" method="" class="form" id="form">
+  <div class="manz">
+    <label for="">First name</label>
+    <input type="text" placeholder="enter your name" id="username">
+    <i class="fa fa-check-circle"></i>
+    
+    <i class="fa fa-exclamation-circle"></i>
+    <small>first name</small>
+  </div>
+  <div class="manz ">
+    <label for="">Second name</label>
+    <input type="text" placeholder="enter your name" id="username">
+    <i class="fa fa-check-circle"></i>
+    
+    <i class="fa fa-exclamation-circle"></i>
+    <small></small>
+  </div>
+  <div class="manz error">
+    <label for="">Telephone</label>
+    <input type="tel" placeholder="enter your name" id="username" maxlength="10">
+    <i class="fa fa-check-circle"></i>
+    
+    <i class="fa fa-exclamation-circle"></i>
+    <small>Phone number can't be blank</small>
+  </div>
+  <div class="manz error">
+    <label for="">E-mail</label>
+    <input type="email" placeholder="enter your name" id="username">
+    <i class="fa fa-check-circle"></i>
+    
+    <i class="fa fa-exclamation-circle"></i>
+    <small>Email is can't be blank</small>
+  </div>
+  
+</form>
+<button onclick="window.location.href='file:///C:/Users/highe/OneDrive/Desktop/gilbert/form_2.html'" style="background-color: blue; width: 150px;margin:0 0 20px 60px;">Next</button>
+
+</div>
+   <script>
+    const form=document.getElementById("form");
+    const username=document.getElementById("username");
+    form.addEventListener('submit', (e)=>{
+      e.preventDefault();
+
+      checkInputs();
+    });
+    function checkInputs(){
+      const usernameValue=username.value.trim();
+    if(usernameValue===''){
+      manzii(username,'username can not be blank' );
+    }
+    else{
+      manzi(username);
+    }}
+    function manzii(input,message){
+     const formC = input.parentElement;
+     const forma = formC.querySelector('small');
+     small.innerText=message;
+     formC.className='manz error';
+    }
+    function manzi(){
+      const formC = input.parentElement;
+      formC.className='manz success';
+    }
+   </script>
+  
+</body>
+</html>
